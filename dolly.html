@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吳沂蓁 | 攝影作品集與履歷</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Noto+Sans+TC:wght@300;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+        
+        body { 
+            font-family: 'Noto Sans TC', sans-serif; 
+            background-color: #fdf6f0; /* 米杏色背景 */
+            color: #4a4a4a;
+            scroll-behavior: smooth;
+        }
+
+        .font-mont { font-family: 'Montserrat', sans-serif; }
+        .serif { font-family: 'Playfair Display', serif; }
+
+        /* 背景微浮雕與色彩卡片 */
+        .glass-box {
+            background: #ffffff;
+            box-shadow: 15px 15px 40px #ede6df, -15px -15px 40px #ffffff;
+            border-radius: 12px;
+            border-top: 4px solid #e76f51; /* 珊瑚橘頂線 */
+        }
+
+        /* 響應式側邊欄 - 焦糖深色系 */
+        @media (min-width: 1024px) {
+            .side-nav {
+                width: 320px;
+                position: fixed;
+                height: 100vh;
+                background-color: #264653; /* 深海藍側邊欄 */
+                color: #ffffff;
+            }
+            .main-content { margin-left: 320px; }
+        }
+
+        /* 側邊導覽連結效果 */
+        .nav-link:hover {
+            color: #e9c46a; /* 暖金色 */
+            padding-left: 10px;
+        }
+        .nav-link { transition: all 0.3s ease; }
+
+        .accent-text { color: #e76f51; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="side-nav z-50 flex flex-col justify-between p-12 text-center lg:text-left bg-[#264653] lg:text-white">
+        <div>
+            <h1 class="text-4xl font-bold tracking-tighter mb-2 serif text-[#e9c46a]">吳沂蓁</h1>
+            <p class="font-mont text-xs tracking-[0.2em] text-white/50 uppercase">Yi-Zhen Wu / Photographer</p>
+        </div>
+        
+        <ul class="space-y-8 font-mont text-xs tracking-[0.3em] font-semibold text-white/70">
+            <li><a href="#about" class="nav-link block italic">01. ABOUT</a></li>
+            <li><a href="#work" class="nav-link block italic">02. CAREER</a></li>
+            <li><a href="#future" class="nav-link block italic">03. FUTURE</a></li>
+        </ul>
+
+        <div class="hidden lg:block">
+            <div class="w-10 h-[1px] bg-[#e76f51] mb-6"></div>
+            <p class="text-[10px] text-white/40 leading-relaxed uppercase tracking-widest">
+                Based in Taiwan.<br>
+                Visual Storyteller.<br>
+                Est. 2026.
+            </p>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        
+        <section class="h-[60vh] relative overflow-hidden flex items-center justify-center">
+            <div class="absolute inset-0 opacity-20" style="background: linear-gradient(rgba(38, 70, 83, 0.8), rgba(231, 111, 81, 0.5)), url('https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=2070&auto=format&fit=crop'); background-size: cover; background-position: center;"></div>
+            <div class="relative text-center">
+                <span class="font-mont text-sm tracking-[1em] text-[#e76f51] font-bold">PORTFOLIO</span>
+                <h2 class="text-6xl md:text-8xl font-bold mt-4 tracking-tighter serif text-[#264653]">用光影<br><span class="italic">書寫日常</span></h2>
+            </div>
+        </section>
+
+        <section id="about" class="p-8 md:p-20 max-w-5xl">
+            <div class="flex items-center mb-12">
+                <span class="serif text-5xl font-bold text-[#e9c46a]/40 mr-6 italic">01</span>
+                <h3 class="text-3xl font-bold border-b-4 border-[#e76f51] pb-2 text-[#264653]">自傳履歷</h3>
+            </div>
+            
+            <div class="glass-box p-10 md:p-16 leading-loose text-gray-600 relative overflow-hidden">
+                <div class="absolute right-[-20px] top-[-20px] serif text-9xl opacity-[0.03] font-bold pointer-events-none">BIO</div>
+                
+                <p class="mb-8 text-2xl text-[#264653] font-bold">我是吳沂蓁，目前就讀大學二年級。</p>
+                <div class="space-y-6 text-lg">
+                    <p>
+                        攝影對我而言，是光影與情緒的交織。我不追求華麗的特效，而是專注於捕捉事物最純粹的「質感」。無論是商品表面的細膩紋理，還是人像眼神中的細微情感，我都能透過鏡頭精準呈現。
+                    </p>
+                    <p>
+                        <strong class="text-[#e76f51]">為何我適合？</strong> 我對 Adobe 影像軟體（PS/LR）有深度研究，能完成細緻的後期調色。大二期間，我曾參與多次校內外商案拍攝，練就了在壓力下快速佈光與精準構圖的本領。我認為攝影師的核心價值在於「溝通」，能將客戶抽象的想法具象化為動人的視覺語言。
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12">
+                    <div class="bg-[#fdf6f0] border border-[#faedcd] py-4 text-center rounded-lg shadow-sm">
+                        <p class="text-xs font-bold text-[#264653]">人像精修</p>
+                    </div>
+                    <div class="bg-[#fdf6f0] border border-[#faedcd] py-4 text-center rounded-lg shadow-sm">
+                        <p class="text-xs font-bold text-[#264653]">產品採光</p>
+                    </div>
+                    <div class="bg-[#fdf6f0] border border-[#faedcd] py-4 text-center rounded-lg shadow-sm">
+                        <p class="text-xs font-bold text-[#264653]">活動速寫</p>
+                    </div>
+                    <div class="bg-[#fdf6f0] border border-[#faedcd] py-4 text-center rounded-lg shadow-sm">
+                        <p class="text-xs font-bold text-[#264653]">視覺美學</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="p-8 md:p-20 bg-[#264653] text-white">
+            <div class="flex items-center mb-12">
+                <span class="serif text-5xl font-bold text-[#e9c46a]/30 mr-6 italic">02</span>
+                <h3 class="text-3xl font-bold border-b-4 border-[#e9c46a] pb-2">目標職位：商業攝影師</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="bg-white/5 backdrop-blur-sm p-10 rounded-2xl border border-white/10">
+                    <h4 class="font-bold text-[#e9c46a] mb-6 text-xs uppercase tracking-[0.3em]">Job Content</h4>
+                    <ul class="space-y-4 text-sm leading-relaxed text-white/80">
+                        <li class="flex items-start"><span class="text-[#e76f51] mr-3">✦</span> 負責高質感產品平面攝影、棚內形象照拍攝。</li>
+                        <li class="flex items-start"><span class="text-[#e76f51] mr-3">✦</span> 主導後期數位修圖流程，確保視覺符合品牌定位。</li>
+                        <li class="flex items-start"><span class="text-[#e76f51] mr-3">✦</span> 監控影像品質一致性，協助數位資產管理。</li>
+                    </ul>
+                </div>
+                <div class="bg-white/5 backdrop-blur-sm p-10 rounded-2xl border border-white/10">
+                    <h4 class="font-bold text-[#e9c46a] mb-6 text-xs uppercase tracking-[0.3em]">Requirements</h4>
+                    <ul class="space-y-4 text-sm leading-relaxed text-white/80">
+                        <li class="flex items-start"><span class="text-[#e76f51] mr-3">✦</span> 精通商業燈光調度與主流單眼相機系統。</li>
+                        <li class="flex items-start"><span class="text-[#e76f51] mr-3">✦</span> 熟悉 RAW 檔非破壞性編輯與色彩學邏輯。</li>
+                        <li class="flex items-start"><span class="text-[#e76f51] mr-3">✦</span> 具備優異溝通領悟力，縮短與企劃端需求落差。</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="future" class="p-8 md:p-20 max-w-6xl">
+            <div class="flex items-center mb-16">
+                <span class="serif text-5xl font-bold text-[#e9c46a]/40 mr-6 italic">03</span>
+                <h3 class="text-3xl font-bold border-b-4 border-[#e76f51] pb-2 text-[#264653]">未來充實規劃</h3>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="relative p-10 glass-box border-none">
+                    <div class="text-[#e9c46a] serif text-4xl mb-6 font-bold italic">A.</div>
+                    <h4 class="font-bold mb-4 text-[#264653] text-xl border-l-4 border-[#e76f51] pl-4">學術涵養</h4>
+                    <p class="text-sm text-gray-500 leading-loose">研習當代藝術史與美學理論，為影像創作注入更多靈魂與深度文化底蘊。</p>
+                </div>
+                <div class="relative p-10 glass-box border-none">
+                    <div class="text-[#e9c46a] serif text-4xl mb-6 font-bold italic">B.</div>
+                    <h4 class="font-bold mb-4 text-[#264653] text-xl border-l-4 border-[#e76f51] pl-4">實戰歷練</h4>
+                    <p class="text-sm text-gray-500 leading-loose">爭取與時尚雜誌團隊合作實習，學習高規格拍攝現場的統籌與應變技巧。</p>
+                </div>
+                <div class="relative p-10 glass-box border-none">
+                    <div class="text-[#e9c46a] serif text-4xl mb-6 font-bold italic">C.</div>
+                    <h4 class="font-bold mb-4 text-[#264653] text-xl border-l-4 border-[#e76f51] pl-4">技術轉型</h4>
+                    <p class="text-sm text-gray-500 leading-loose">學習動態影像敘事與 AI 輔助修圖，為未來多元媒材內容創作做準備。</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="p-20 text-center lg:text-left border-t border-gray-200 bg-white">
+            <p class="font-mont text-[10px] tracking-[0.5em] text-gray-400 uppercase">© 2026 WU YI ZHEN. YVONNE PHOTOGRAPHY STUDIO. ALL RIGHTS RESERVED.</p>
+        </footer>
+    </main>
+
+</body>
+</html>
